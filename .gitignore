@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables — NEVER commit this
+.env
+
+# Generated certificates (PDF files — large binary files)
+generated_certificates/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic auto-generated (optional, keep if you want migration history)
+# alembic/versions/
+
+bulk_cert.db
+*.db
